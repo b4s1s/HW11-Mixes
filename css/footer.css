@@ -1,0 +1,71 @@
+footer {
+	background-color: #333333;
+}
+
+.footer-link {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.pnone-number-footer {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	color: #FFF;
+}
+
+.phone-icon-light {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-image: url(../img/carbon_phone-light.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 9px;
+}
+
+.social-icon-vk {
+	display: inline-block;
+	background-image: url(../img/cib_vk.png);
+	width: 25px;
+	height: 25px;
+}
+
+.social-icon-insta {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background-image: url(../img/Vector.png);
+}
+
+
+.site-footer {
+	display: flex;
+	align-items: center;
+}
+
+.footer-column {
+	flex-grow: 1;
+	display: flex;
+	padding-top: 102px;
+	padding-bottom: 132px;
+}
+
+.footer-column-left {
+	justify-content: flex-start;
+	gap: 47px;
+}
+
+.footer-column-center {
+	justify-content: center;
+	gap: 20px;
+}
+
+.footer-column-right {
+	justify-content: flex-end;
+}

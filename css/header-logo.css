@@ -1,0 +1,63 @@
+.header-logo {
+	margin-top: 33px;
+	margin-bottom: 60px;
+}
+
+.phone-icon-dark {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-image: url(../img/carbon_phone-dark.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 9px;
+
+}
+
+.pnone-number {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #000;
+	/* 18 */
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-right: 60px;
+}
+
+.cart-icon {
+	width: 30px;
+	height: 30.879px;
+	display: inline-block;
+	background-image: url(../img/Buy.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 25px;
+	margin-right: 20px;
+	padding: 2.573px 2.5px 2.837px 2.5px;
+}
+
+.account-icon {
+	width: 30px;
+	height: 30.879px;
+	display: inline-block;
+	background-image: url(../img/аккаунт.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 2.573px 2.5px 2.837px 2.5px;
+	background-size: 25px;
+}
+
+.header-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}

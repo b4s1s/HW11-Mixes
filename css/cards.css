@@ -1,0 +1,107 @@
+.main-cards {
+	background-color: #F9F9F9;
+	padding-bottom: 50px;
+}
+
+.store-cards {
+	display: flex;
+	flex-wrap: wrapgit;
+	gap: 20px;
+}
+
+.card {
+	border-radius: 20px;
+	width: 315px;
+	display: inline-flex;
+	padding: 20px 20px 30px 20px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 25px;
+	border-radius: 20px;
+	border: 1px solid #F2F2F2;
+	background: #F9F9F9;
+	box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.05), -8px -8px 15px 0px #FFF;
+}
+
+.card img {
+	width: 275px;
+	height: 275px;
+	object-fit: cover;
+}
+
+.card h2 {
+	color: #333;
+	font-family: Gilroy;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 31.2px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.card-description {
+	color: #828282;
+	font-family: Gilroy;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20.8px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card-price {
+	color: #333;
+	font-family: Gilroy;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.control {
+	display: inline-block;
+	padding: 4px 12px;
+}
+
+input:checked+.control {
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid #3ECF5E;
+	background: #FFF;
+	width: 68px;
+	height: 29px;
+	color: #4F4F4F;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.card-pads {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.details-button {
+	text-decoration: none;
+	display: inline-flex;
+	padding: 12px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 10px;
+	border: 1px solid rgba(5, 175, 52, 0.53);
+	background: #3FCF5E;
+	color: #FFF;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
