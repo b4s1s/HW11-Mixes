@@ -59,7 +59,7 @@ nav {
 
 .search-icon {
 	display: inline-block;
-	background-image: url(../img/Search.png);
+	background: url(../img/Search.png);
 	width: 30px;
 	height: 30.879px;
 	padding: 2.573px 2.5px;
@@ -67,3 +67,9 @@ nav {
 	justify-content: center;
 	align-items: center;
 }
+
+/* 
+.search {
+	display: flex;
+	flex-wrap: wrap;
+} */
