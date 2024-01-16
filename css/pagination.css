@@ -1,0 +1,50 @@
+.pages {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.page {
+	color: #8282;
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.active {
+	color: #219653;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+
+
+.page-prev {
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/arrow-right.png);
+	transform: rotate(180deg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-right: 5px;
+}
+
+.page-next {
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/arrow-right.png);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-size: contain;
+	margin-left: 5px;
+}

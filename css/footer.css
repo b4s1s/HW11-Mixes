@@ -2,49 +2,7 @@ footer {
 	background-color: #333333;
 }
 
-.footer-link {
-	text-decoration: none;
-	color: #FFF;
-}
-
-.pnone-number-footer {
-	display: flex;
-	align-items: center;
-	text-decoration: none;
-	font-family: Gilroy;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: normal;
-	color: #FFF;
-}
-
-.phone-icon-light {
-	width: 24px;
-	height: 24px;
-	display: inline-block;
-	background-image: url(../img/carbon_phone-light.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	margin-right: 9px;
-}
-
-.social-icon-vk {
-	display: inline-block;
-	background-image: url(../img/cib_vk.png);
-	width: 25px;
-	height: 25px;
-}
-
-.social-icon-insta {
-	width: 25px;
-	height: 25px;
-	display: inline-block;
-	background-image: url(../img/Vector.png);
-}
-
-
-.site-footer {
+.footer-inner {
 	display: flex;
 	align-items: center;
 }
@@ -68,4 +26,50 @@ footer {
 
 .footer-column-right {
 	justify-content: flex-end;
+}
+
+.footer-link {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+}
+
+.pnone-number-footer {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+	color: #FFF;
+}
+
+.phone-icon-light {
+	width: 24px;
+	height: 24px;
+	background-image: url(../images/phone_light.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-right: 9px;
+}
+
+.social-icon-vk {
+	background-image: url(../images/cib_vk.png);
+	width: 25px;
+	height: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain
+}
+
+.social-icon-insta {
+	width: 25px;
+	height: 25px;
+	background-image: url(../images/insta.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain
 }
