@@ -1,0 +1,110 @@
+.main-cards {
+	padding-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 20px;
+	row-gap: 46px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 20px;
+	row-gap: 46px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid #F2F2F2;
+	padding: 20px 20px 30px 20px;
+	border-radius: 20px;
+	width: 315px;
+	gap: 25px;
+	color: #333;
+	background-color: #F9F9F9;
+	box-shadow:
+		8px 8px 15px 0px rgba(0, 0, 0, 0.05),
+		-8px -8px 15px 0px #FFF;
+}
+
+.card-title {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 130%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card-subtitle {
+	color: #828282;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 130%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card-price {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.weight {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.weight-select {
+	color: #4F4F4F;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+	border-radius: 5px;
+	padding: 4px 12px;
+	border: 2px solid transparent;
+}
+
+input:checked+.weight-select {
+
+	border-color: #3ECF5E;
+	background-color: #FFF;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.details-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	padding: 12px 32px;
+	border-radius: 10px;
+	border: 1px solid rgba(5, 175, 52, 0.53);
+	background-color: #3FCF5E;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttons a:last-child {
+	width: 46px;
+	height: 45px;
+	border-radius: 10px;
+	border: 1px solid #BDBDBD;
+	background: #FFF;
+	background-image: url(../images/Buy.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	pad: 9px;
+}

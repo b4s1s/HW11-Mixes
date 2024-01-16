@@ -1,5 +1,3 @@
-.header-row-bottom {}
-
 .navigation {
 	padding-bottom: 30px;
 	display: flex;
@@ -39,7 +37,7 @@
 	border-radius: 10px;
 	border: 1px solid #BDBDBD;
 	background-color: #F2F2F2;
-	padding: 17px 20px;
+	padding: 17px 55px 17px 20px;
 	background: url(../images/Search.png);
 	background-size: 30px;
 	background-repeat: no-repeat;

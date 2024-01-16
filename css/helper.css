@@ -13,6 +13,20 @@ body {
 	margin-right: auto;
 }
 
+main {
+	padding-top: 75px;
+	padding-bottom: 100px;
+}
+
+.main-back {
+	padding-top: 30px;
+	padding-bottom: 44px;
+}
+
 .input:not(.search) {
+	display: none;
+}
+
+.weight input {
 	display: none;
 }

@@ -43,22 +43,23 @@
 			</div>
 		</div>
 	</header>
-
 	<main>
-		<section class="main-links">
+		<section class="main-breadcrumbs">
 			<div class="wrapper">
-				<div class="main-section-links">
-					<a href="#" class="section-link">О Каталог</a>
-					<span class="dot-between"></span>
-					<a href="#" class="section-link">Готовые миксы</a>
+				<div class="breadcrumbs">
+					<div href="#" class="breadcrumbs-item">
+						<a href="#">О Каталог</a>
+					</div>
+					<div href="#" class="breadcrumbs-item">
+						<a href="#">Готовые миксы</a>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section class="main-back">
 			<div class="wrapper">
-				<div class="main-link-back">
+				<div class="main-back-link">
 					<a href="#" class="back-link">
-						<span class="arrow-back"></span>
 						Назад
 					</a>
 				</div>
@@ -66,35 +67,29 @@
 		</section>
 		<section class="main-cards">
 			<div class="wrapper">
-				<div class="store-cards">
+				<div class="cards">
 					<div class="card">
-						<img src="../HW10/img/photo.png" alt="Card">
-						<div class="card-info">
-							<h2>
-								PADOVAN OVOMIX GOLD ROSSO
-							</h2>
-							<p class="card-description">
-								Корм для птиц
-							</p>
-						</div>
+						<img src="../HW10/images/photo.png" alt="Card">
+						<h2 class="card-title">PADOVAN OVOMIX GOLD ROSSO</h2>
+						<h3 class="card-subtitle">Корм для птиц</h3>
 						<p class="card-price">1000 грн.</p>
-						<div class="weight-select">
-							<input type="radio" id="radio-1"></input>
-							<label for="radio-1" class="control">200 г</label>
-							<input type="radio" id="radio-2"></input>
-							<label for="radio-2" class="control">400 г</label>
-							<input type="radio" id="radio-3"></input>
-							<label for="radio-3" class="control">800 г</label>
-							<input type="radio" id="radio-4"></input>
-							<label for="radio-4" class="control">1 кг</label>
+						<div class="weight">
+							<input type="radio" id="radio-1" name="weight" checked></input>
+							<label for="radio-1" class="weight-select">200 г</label>
+							<input type="radio" id="radio-2" name="weight"></input>
+							<label for="radio-2" class="weight-select">400 г</label>
+							<input type="radio" id="radio-3" name="weight"></input>
+							<label for="radio-3" class="weight-select">800 г</label>
+							<input type="radio" id="radio-4" name="weight"></input>
+							<label for="radio-4" class="weight-select">1 кг</label>
 						</div>
-						<div class="card-pads">
+						<div class="buttons">
 							<a href="#" class="details-button">Подробнее</a>
-							<a href="#">
-								<span class="cart-icon"></span>
-							</a>
+							<a href="#" class="cart-icon"></a>
 						</div>
 					</div>
+				</div>
+			</div>
 		</section>
 		<section class="bottom-nav">
 			<div class="wrapper">
