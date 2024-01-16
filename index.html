@@ -7,58 +7,43 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 	<header class="header-logo">
 		<div class="wrapper">
-			<div class="header-top">
-				<div class="contacts">
-					<div class="logo">
-						<img src="./img/logo.png" alt="Logo">
-					</div>
-				</div>
-				<div class="contacts">
-					<div class="phone">
-						<a href="tel:89209994350" class="pnone-number">
-							<span class="phone-icon-dark"></span>
-							8 920 999 43 50
+			<div class="header-row header-row-top">
+				<a href="#" class="logo">
+					<img src="./images/logo.png" alt="Logo" width: 244px height: 45px;>
+				</a>
+				<div class="user-actions">
+					<a href="tel:89209994350" class="pnone">
+
+						8 920 999 43 50
+					</a>
+					<div class="account-links">
+						<a href="#" class="cart">
+							<span class="amount">2</span>
 						</a>
-					</div>
-					<div class="cart">
 						<a href="#">
-							<span class="cart-icon"></span>
-						</a>
-					</div>
-					<div class="account">
-						<a href="#">
-							<span class="account-icon"></span>
 						</a>
 					</div>
 				</div>
 			</div>
+			<div class="header-row header-row-bottom">
+				<nav class="navigation">
+					<a href="#" class="navigation-link navigation-link-dropdown">Каталог</a>
+					<a href="#" class="navigation-link">О проекте</a>
+					<a href="#" class="navigation-link navigation-link-dropdown">Птицы</a>
+					<a href="#" class="navigation-link">Пожертвования</a>
+				</nav>
+				<form action="#">
+					<input type="search" class="search-icon" id="search" placeholder="Поиск">
+					<label for="search"></label>
+				</form>
+			</div>
 		</div>
 	</header>
-	<header class="header-links">
-		<div class="wrapper">
-			<nav>
-				<div class="nav-column">
-					<a href="#" class="link">
-						Каталог
-						<span class="link-dropdown"></span>
-					</a>
-					<a href="#" class="link">О проекте</a>
-					<a href="#" class="link">Птицы</a>
-					<a href="#" class="link">Пожертвования</a>
-				</div>
-				<div class="nav-column">
-					<div class="search">
-						<input type="search" class="search-icon" id="search" placeholder="Поиск">
-						<label for="search"></label>
-						<!-- <span class="search-icon"></span> -->
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
+
 	<main>
 		<section class="main-links">
 			<div class="wrapper">
