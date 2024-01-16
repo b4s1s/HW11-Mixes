@@ -13,6 +13,6 @@ body {
 	margin-right: auto;
 }
 
-.weight-select input {
+.input:not(.search) {
 	display: none;
 }
