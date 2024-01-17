@@ -1,5 +1,7 @@
 footer {
 	background-color: #333333;
+	padding-top: 102px;
+	padding-bottom: 132px;
 }
 
 .footer-inner {
@@ -10,8 +12,7 @@ footer {
 .footer-column {
 	flex-grow: 1;
 	display: flex;
-	padding-top: 102px;
-	padding-bottom: 132px;
+
 }
 
 .footer-column-left {
